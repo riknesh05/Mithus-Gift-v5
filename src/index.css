@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+.navList .navItem{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+}
+
+.navList .navItem img{
+    width: 20px;
+    height: 20px;
+    margin-left: 2px;
+}
+
+.navIcons div{
+    margin-right: 5px;
+}
+

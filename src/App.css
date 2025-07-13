@@ -1,0 +1,8 @@
+.image_container > .image > img{
+    height: 100%;
+    width:100%;
+    object-fit: cover;
+}
+.image_container> .image{
+    width: 10%;
+}
