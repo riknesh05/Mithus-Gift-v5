@@ -1,14 +1,4 @@
 import React,{ Component } from "react";
-// import im1 from "./assets/items/1.png";
-// import im2 from "./assets/items/2.png";
-// import im3 from "./assets/items/3.png";
-// import im4 from "./assets/items/4.png";
-// import im5 from "./assets/items/5.png";
-// import im6 from "./assets/items/6.png";
-// import im7 from "./assets/items/7.png";
-// import im8 from "./assets/items/8.png";
-// import im9 from "./assets/items/9.png";
-// import im10 from "./assets/items/10.png";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
@@ -25,8 +15,8 @@ function Carasole({data, name}) {
   slidesToScroll: 1,
   speed: 500,
   cssEase: "ease-in-out",
-  swipeToSlide: true,          // ✅ ALLOWS fluid slide following swipe
-  draggable: true,             // ✅ Enables mouse drag on desktop
+  swipeToSlide: true,         
+  draggable: true,             
   touchThreshold: 10,
 
     responsive: [
@@ -57,91 +47,6 @@ function Carasole({data, name}) {
     ]
   };
 
-  // const nArrs = [
-  //   {
-  //     Image: im1,
-  //     title: "Posters",
-  //   },
-  //   {
-  //     Image: im2,
-  //     title: "Thread Arts",
-  //   },
-  //   {
-  //     Image: im3,
-  //     title: "Resin Arts",
-  //   },
-  //   {
-  //     Image: im4,
-  //     title: "Key Chains",
-  //   },
-  //   {
-  //     Image: im5,
-  //     title: "Preservations",
-  //   },
-  //   {
-  //     Image: im6,
-  //     title: "Wood Arts",
-  //   },
-  //   {
-  //     Image: im7,
-  //     title: "Photo frames",
-  //   },
-  //   {
-  //     Image: im8,
-  //     title: "Gift Boxes",
-  //   },
-  //   {
-  //     Image: im9,
-  //     title: "Cards",
-  //   },
-  //   {
-  //     Image: im10,
-  //     title: "Decotations",
-  //   },
-  // ];
-  // const tDings = [
-  //   {
-  //     Image: im1,
-  //     title: "Posters",
-  //   },
-  //   {
-  //     Image: im2,
-  //     title: "Thread Arts",
-  //   },
-  //   {
-  //     Image: im3,
-  //     title: "Resin Arts",
-  //   },
-  //   {
-  //     Image: im4,
-  //     title: "Key Chains",
-  //   },
-  //   {
-  //     Image: im5,
-  //     title: "Preservations",
-  //   },
-  //   {
-  //     Image: im6,
-  //     title: "Wood Arts",
-  //   },
-  //   {
-  //     Image: im7,
-  //     title: "Photo frames",
-  //   },
-  //   {
-  //     Image: im8,
-  //     title: "Gift Boxes",
-  //   },
-  //   {
-  //     Image: im9,
-  //     title: "Cards",
-  //   },
-  //   {
-  //     Image: im10,
-  //     title: "Decotations",
-  //   },
-  // ];
-
   
   return (
     <>
@@ -155,10 +60,11 @@ function Carasole({data, name}) {
           return (
             <div className="" key={index}>
               <div className="w-60 h-50 object-contain">
-                <img src={item.Image} alt="" className="w-full h-full"/>
+                <img src={item.Image} alt="" className="w-full h-full rounded-lg"/>
               </div>
               <div className="">
-                <p className="font-bold text-xl p-0.5">{item.title}</p>
+                <p className="font-bold text-xl p-0.5 text-white">{item.title}</p>
+                <p className="font-bold text-xs p-0.5 ml-0.5 underline text-black">Know More</p>
               </div>
             </div>
           );

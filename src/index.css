@@ -3,7 +3,6 @@
 body {
   background: rgb(205, 187, 147);
 }
-
 .navList .navItem {
   display: flex;
   align-items: center;
