@@ -1,20 +1,23 @@
 @import "tailwindcss";
 
-.navList .navItem{
-    display: flex;
-    align-items: center;
-    padding: 10px;
-    color: #333;
-    text-decoration: none;
+body {
+  background: rgb(205, 187, 147);
 }
 
-.navList .navItem img{
-    width: 20px;
-    height: 20px;
-    margin-left: 2px;
+.navList .navItem {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  color: #333;
+  text-decoration: none;
 }
 
-.navIcons div{
-    margin-right: 5px;
+.navList .navItem img {
+  width: 20px;
+  height: 20px;
+  margin-left: 2px;
 }
 
+.navIcons div {
+  margin-right: 5px;
+}

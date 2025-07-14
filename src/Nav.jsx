@@ -36,11 +36,11 @@ export default function Nav() {
   return (
     <>
      {/* border-neutral-200   border-b-2 */}
-      <nav className="navContainer flex flex-wrap items-center justify-between p-4 md:shadow-2xl shadow-md  bg-transparent absolute z-10 w-full">
+      <nav className="navContainer flex flex-wrap items-center justify-between p-4 md:shadow-2xl shadow-lg shadow-amber-50  bg-transparent absolute z-10 w-full">
         <div className="name flex items-center">
           <img src={Logo} alt="" />
           
-          <h1 className="text-3xl">Mithu's Gift</h1>
+          <h1 className="text-3xl text-white font-bold">Mithu's Gift</h1>
         </div>
         <ul className="navList md:flex hidden justify-start">
           <li className="navItem ">
