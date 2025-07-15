@@ -9,9 +9,10 @@ import { nArrs, tDings } from "./data/Data";
 
 function App() {
 
-  useEffect(() => {
-    alert("🚧 Under Development Not Optimized for Laptops — Click OK to continue.");
-  }, []); 
+let dev = true;
+if (dev) {
+      alert("🚧 Under Development Not Optimized for Laptops — Click OK to continue.");
+}
 
   return (
     <>
