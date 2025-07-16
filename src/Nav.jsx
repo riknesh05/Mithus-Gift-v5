@@ -40,7 +40,7 @@ export default function Nav() {
         <div className="name flex items-center">
           <img src={Logo} alt="" />
           
-          <h1 className="text-3xl text-white font-bold">Mithu's Gift</h1>
+          <h1 className="text-4xl text-white font-sg ">Mithu's Gift</h1>
         </div>
         <ul className="navList md:flex hidden justify-start">
           <li className="navItem ">

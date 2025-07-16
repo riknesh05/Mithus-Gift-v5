@@ -1,7 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Quicksand:wght@300..700&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
 @import "tailwindcss";
-
+@theme{
+  --font-qs: Quicksand,"sans-serif";
+  --font-ds: Dancing Script,"sans-serif";
+  --font-sg: Sour Gummy,"sans-serif";
+}
 body {
   background: rgb(205, 187, 147);
+  font-family: Sour Gummy ;
 }
 .navList .navItem {
   display: flex;

@@ -4,8 +4,7 @@ import Youtube from './assets/youtube_logo_1.svg';
 import Location from './assets/location_logo_1.png';
 
 function Footer() {
-  return (
-<div className="footerContainer text-center">
+  return (<div className="footerContainer text-center">
     <div className="queries flex flex-wrap justify-evenly p-2 ">
             <p className="m-1">Contact</p>
             <p className="m-1">FAQ</p>
@@ -20,7 +19,7 @@ function Footer() {
     </div>
     <div className="details">  © {new Date().getFullYear()} Mithu's Gift & dj_r Codes. All rights reserved.</div>
 </div>
-)
+);
 }
 
 export default Footer

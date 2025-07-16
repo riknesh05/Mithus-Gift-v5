@@ -1,4 +1,3 @@
-import { useEffect } from "react";  
 import "./App.css";
 import Nav from "./Nav.jsx";
 import Hero from "./Hero.jsx";
@@ -8,12 +7,12 @@ import Footer from "./Footer.jsx";
 import { nArrs, tDings } from "./data/Data";
 
 function App() {
+  
+let dev = false;
 
-let dev = true;
 if (dev) {
-      alert("🚧 Under Development Not Optimized for Laptops — Click OK to continue.");
+    alert("🚧 Under Development Not Optimized for Laptops — Click OK to continue.");
 }
-
   return (
     <>
       <Nav />
